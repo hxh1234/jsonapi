@@ -1,14 +1,17 @@
 {
-  "posts": [
-    { "id": 1, "title": "ttt 1" },
-    { "id": 2, "title": "ttt 2" },
-    { "id": 3, "title": "ttt 3" }
-  ],
+  "posts": {
+    "content": {
+        "fileUrl": "imag/backgroundimage.jpg"
+    },
+    "response": "ok",
+    "message": "if not ok return message erreur",
+  },
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  
 }
