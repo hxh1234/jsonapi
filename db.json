@@ -1,17 +1,24 @@
 {
-  "posts": {
-    "content": {
-        "fileUrl": "imag/backgroundimage.jpg"
-    },
-    "response": "ok",
-    "message": "if not ok return message erreur",
-  },
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  
+	"posts": {
+		"content": {
+			"fileUrl": "imag/backgroundimage.jpg"
+		},
+		"response": "ok",
+		"message": "if not ok return message erreur"
+	},
+	"comments": [{
+			"id": 1,
+			"body": "some commmmm",
+			"postId": 5
+		},
+		{
+			"id": 2,
+			"body": "comment",
+			"postId": 6
+		}
+	],
+	"profile": {
+		"name": "typicode"
+	}
+
 }
